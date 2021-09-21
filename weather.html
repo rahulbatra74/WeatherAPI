@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather forecast</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div >
+        <input id="cityName" type="text" placeholder="enter your city">
+        <button type="button" onclick="cityName()">submit</button>
+    </div>
+    <div class="location">
+       
+        <h1 class="location-timezone">Timezone <span id='city' style="font-size: 15px;color: bisque;"></span></h1>
+        <p>Icon</p>
+    </div>
+    <div class="temperature">
+        <div class="degree-section">
+        <h2 id= 'temp' class="temperature-degree">34</h2>
+        <span>F</span>
+    </div>
+        <div id='des' class="temperature-description">
+            Its friggin cold
+        </div>
+    </div>
+
+
+
+   <script src="weather.js"></script> 
+   <footer>
+       <p> MADE WITH &hearts; BY RAHUL</p></footer> 
+</body>
+</html>
